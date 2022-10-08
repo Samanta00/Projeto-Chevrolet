@@ -1,25 +1,26 @@
-*{
-  margin:0;
-  padding:0;
+* {
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
-  
 }
-body{
+
+body {
   overflow-x: hidden;
   height: 100vh;
   font-size: clamp(1.75em, 1em+3vw, 22.5em);
 }
 
-.titulo_compras{
-    font-size: 155%;
+.titulo_compras {
+  font-size: 155%;
 }
 
-.title-wrapper-catalog{
-    margin-top: 62px;
-    padding-bottom: 20px;
-    margin-right: 8%;
+.title-wrapper-catalog {
+  margin-top: 62px;
+  padding-bottom: 20px;
+  margin-right: 8%;
 }
-.filter-card{
+
+.filter-card {
   width: 980px;
   height: 150px;
   background: var(--gray);
@@ -29,67 +30,72 @@ body{
   flex-direction: row;
   align-items: center;
   justify-content: center;
+}
 
+p.paragrafo {
+  margin-left: 8%;
 }
-p.paragrafo{
-    margin-left: 8%;
-}
+
 .content .header-block {
-    max-width: 1000px;
-    min-width: 300px;
-    height: 450px;
-    background: var(--blue);
-    border-radius: 8px;
-    box-shadow: 1px 0px 10px 0px rgba(0, 0, 0, 0.5);
-    -webkit-box-shadow: 1px 0px 10px 0px rgba(0, 0, 0, 0.5);
-    -moz-box-shadow: 1px 0px 10px 0px rgba(0, 0, 0, 0.5);
-    position: relative;
-    z-index: 10;
-    padding: 10px;
-  }
-  section .card-wrapper {
-    max-width: 1000px;
-    height: 100%;
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(270px, 1fr));
-    grid-gap: 30px;
-    padding-top: 50px;
-  }
-  
-  section .card-item {
-    height: 400px;
-    background: var(--gray);
-    border-radius: 8px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-around;
-  }
-  .search-input {
-    width: 700px;
-    height: 50px;
-    border-radius: 4px 0px 0px 4px;
-    text-indent: 10px;
-  }
-  
-  .search-button {
-    width: 150px;
-    height: 50px;
-    border-radius: 0px 4px 4px 0px;
-    color: rgb(0, 0, 0);
-    cursor: pointer;
-    font-size: 1.1em;
-    transition: 0.2s ease;
-    margin-top: 0%;
-  }
-  .search-button:hover{
-    color: black;
-    background-color: blue;
-  }
-  .form1{
-   margin-left:15%;
-  }
+  max-width: 1000px;
+  min-width: 300px;
+  height: 450px;
+  background: var(--blue);
+  border-radius: 8px;
+  box-shadow: 1px 0px 10px 0px rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: 1px 0px 10px 0px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 1px 0px 10px 0px rgba(0, 0, 0, 0.5);
+  position: relative;
+  z-index: 10;
+  padding: 10px;
+}
 
-#paragrafo_modelo{
+section .card-wrapper {
+  max-width: 1000px;
+  height: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(270px, 1fr));
+  grid-gap: 30px;
+  padding-top: 50px;
+}
+
+section .card-item {
+  height: 400px;
+  background: var(--gray);
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.search-input {
+  width: 700px;
+  height: 50px;
+  border-radius: 4px 0px 0px 4px;
+  text-indent: 10px;
+}
+
+.search-button {
+  width: 150px;
+  height: 50px;
+  border-radius: 0px 4px 4px 0px;
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+  font-size: 1.1em;
+  transition: 0.2s ease;
+  margin-top: 0%;
+}
+
+.search-button:hover {
+  color: black;
+  background-color: blue;
+}
+
+.form1 {
+  margin-left: 15%;
+}
+
+#paragrafo_modelo {
   margin-left: 35%;
 }
